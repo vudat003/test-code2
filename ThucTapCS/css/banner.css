@@ -1,0 +1,28 @@
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.img_slider {
+    animation: fading 3s infinite;
+    height: 300px;
+}
+
+.backFD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0.5
+    }
+    100% {
+        opacity: 1
+    }
+}

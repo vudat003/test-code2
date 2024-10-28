@@ -1,0 +1,165 @@
+#introduction #bg {
+    background-color: rgb(189, 189, 189);
+    padding: 10px 0;
+}
+
+#introduction #bg h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(71, 69, 69);
+    margin-top: 100px;
+}
+
+#introduction #content {
+    background-color: rgb(211, 210, 210);
+    height: 300px;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+#introduction #content #story {
+    width: 33.33%;
+    font-size: 20px;
+}
+
+#introduction #content #story h2 {
+    text-align: center;
+    color: rgb(0, 140, 255);
+    margin-bottom: 20px;
+}
+
+#introduction #content #story p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+#introduction #content #image {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#introduction #content #image img {
+    border-radius: 50%;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    border: 3px solid rgb(83, 83, 83);
+}
+
+#introduction #content #infor_main {
+    width: 33.33%;
+}
+
+#introduction #content #infor_main h2 {
+    text-align: center;
+    color: rgb(0, 140, 255);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#introduction #content #infor_main table {
+    margin-top: 30px;
+    width: 400px;
+}
+
+#introduction #content #infor_main table tr td {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+    border-bottom: 1px solid steelblue;
+}
+
+#introduction #content #infor_main table tr td:first-child {
+    width: 140px;
+    color: black;
+    padding-top: 10px;
+}
+
+.lichsumuahang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gach h3{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lichsumuahang table{
+    margin: 10px;
+    width: 1000px;
+    text-align: center;
+}
+.lichsumuahang table .time{
+    width: 1200px;
+    background-color:rgb(229, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid white;
+}
+.lichsumuahang table .th_mucchinh{
+    background-color:rgb(229, 255, 0);
+    height: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    border: 1px solid white;
+}
+.lichsumuahang table .ttsp{
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+.lichsumuahang table .tt{
+    background-color: #9c9c9c;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.bnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bnt .bnt_left button, .bnt_right button{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
+
+
+.bnt .bnt_left button{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    
+}
+
+#hoadonChuaDuyet{
+    display: block;
+}
+#hoadonDaDuyet{
+    display: none;
+}

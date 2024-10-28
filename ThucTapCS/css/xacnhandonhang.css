@@ -1,0 +1,44 @@
+#thongtinkhachhang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thongtinkhachhang h4{
+    font-weight: normal;
+    font-size: 19px;
+    margin: 20px 10px;
+}
+
+#bangsanpham{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#bangsanpham table{
+    width: 1000px;
+}
+
+#inhoadon{
+    margin-top: 20px;
+    width: 300px;
+    float: right;
+}
+
+#inhoadon a{
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+#inhoadon a:hover{
+    background-color: forestgreen;
+    color: white;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.dangky {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 3px 4px rgb(49, 49, 49);
+    background-color: #eaeaea;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.dangky h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.dangky p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+}
+.dangky .error{
+    margin: 5px 10px;
+    display: flex;
+    font-size: 15px;
+    color: red;
+}
+.dangky input[type="text"],
+input[type="password"] {
+    border-radius: 40px;
+    width: 280px;
+    height: 20px;
+    font-size: 16px;
+    padding: 5px 5px 5px 10px;
+    font-weight: 500;
+    border: 3px solid black;
+    outline: none;
+}
+
+
+.dangky input[type="submit"] {
+    width: 280px;
+    height: 30px;
+    border-radius: 20px;
+    color: papayawhip;
+    background-color: red;
+    font-weight: bolder;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+    margin: 20px 0;
+}
+
+.dangky input[type="submit"]:hover {
+    background-color: rosybrown;
+    color: black;
+}
+
+.dangky #dangkytk {
+    width: 100%;
+    text-align: center;
+}
+
+.dangky #dangkytk span a {
+    color: rgb(0, 0, 0);
+}
+
+.dangky #dangkytk span a:hover {
+    color: rgb(255, 0, 0);
+}

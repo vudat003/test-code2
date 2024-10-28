@@ -1,0 +1,126 @@
+.so_loaisp {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.so_th {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.so_sp {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#content #noidungchinh #danhsach table {
+    width: 1070px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#content #noidungchinh #danhsach table tr:first-child {
+    background-color: rgb(141, 141, 141);
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+}
+
+#content #noidungchinh #danhsach table tr:nth-child(2) {
+    background-color: rgb(170, 170, 170);
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+}
+#content #noidungchinh #danhsach table tr:nth-child(even) td{
+    background-color: rgb(236, 236, 236);
+}
+#content #noidungchinh h2 {
+    margin-top: 20px;
+}
+
+#content #noidungchinh #chucnang {
+    width: 900px;
+    display: flex;
+    /* establish flex container */
+    flex-direction: row;
+    /* default value; can be omitted */
+    flex-wrap: nowrap;
+    /* default value; can be omitted */
+    justify-content: space-between;
+    /* switched from default (flex-start, see below) */
+    margin: 0 auto;
+}
+
+#content #noidungchinh #chucnang input {
+    height: 20px;
+    font-size: 15px;
+    padding: 2px 10px;
+}
+
+#content #noidungchinh #chucnang select {
+    height: 20px;
+}
+
+#content #noidungchinh #chucnang #upload form {
+    margin: 10px;
+    font-size: 16px;
+}
+
+#content #noidungchinh #chucnang #upload form input {
+    width: 200px;
+}
+
+#content #noidungchinh #chucnang #upload form button[type='submit'] {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#content #noidungchinh #chucnang #timkiem {
+    margin: 20px;
+}
+
+#content #noidungchinh table tr th,
+td {
+    height: 30px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    border-left: 1px solid rgb(179, 179, 179);
+}
+
+#content #noidungchinh table tr td a img {
+    width: 30px;
+    height: 30px;
+}
+#content #noidungchinh table tr td button{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+#content #noidungchinh table tr td i{
+    color: rgb(15, 15, 15);
+    font-size: 15px;
+}
+#content #noidungchinh table tr td button i{
+    color: rgb(107, 107, 107);
+    font-size: 30px;
+}
+
+#content #noidungchinh table tr td button i:hover{
+    color: rgb(31, 153, 0);
+}
+

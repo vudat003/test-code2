@@ -1,0 +1,220 @@
+/*bat dau tieu de*/
+#tieude {
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    /*Cho menu cố định 1 vị trí với top và left*/
+    top: 0;
+    /*Nằm trên cùng*/
+    left: 0;
+    /*Nằm sát bên trái*/
+    z-index: 100000;
+    /*Hiển thị lớp trên cùng*/
+}
+
+#tieude #tieude_cangiua {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#tieude #tieude_cangiua .logo {
+    display: inline;
+    width: 400px;
+    margin: auto;
+}
+
+#tieude #tieude_cangiua .logo h2 a {
+    font-size: 40px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+#danhsachhotrotuvan .danhsach {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 60px;
+}
+
+#danhsachhotrotuvan .danhsach li {
+    transition: 0.3s;
+}
+
+#danhsachhotrotuvan .danhsach li:hover {
+    height: 20px;
+    border-bottom: 2px solid rgb(255, 251, 0);
+}
+
+#danhsachhotrotuvan .danhsach a {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+#danhsachhotrotuvan .danhsach a i {
+    margin-right: 5px;
+}
+
+#danhsachhotrotuvan .danhsach a:hover {
+    color: yellow;
+}
+
+#tieude #tieude_cangiua .timkiem {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tieude #tieude_cangiua .timkiem p {
+    display: inline;
+    color: azure;
+    padding-right: 10px;
+}
+
+#tieude #tieude_cangiua .timkiem input {
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+}
+
+#tieude #tieude_cangiua .timkiem #find {
+    position: absolute;
+    top: 46px;
+    background-color: rgb(255, 255, 255);
+    content: "";
+    width: 255px;
+    max-height: 500px;
+}
+
+#tieude #tieude_cangiua .timkiem #find a .sp {
+    transition: 0.4s;
+}
+
+#tieude #tieude_cangiua .timkiem #find a:hover .sp {
+    background-color: rgb(177, 177, 177);
+}
+
+#tieude #tieude_cangiua .timkiem #find .sp {
+    padding-top: 10px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+#tieude #tieude_cangiua .timkiem #find .sp img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+#tieude #tieude_cangiua .timkiem #find .sp .noidung {
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+#tieude #tieude_cangiua .timkiem #find .sp .noidung h6 {
+    margin-top: 2px;
+    color: red;
+}
+
+#tieude #tieude_cangiua .timkiem i {
+    width: 32px;
+    height: 33px;
+    background-color: rgb(70, 70, 70);
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tieude #tieude_cangiua .taikhoan {
+    display: inline;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#tieude #tieude_cangiua .taikhoan span a {
+    color: azure;
+    font-size: 20px;
+    padding-left: 20px;
+    float: right;
+}
+
+#tieude #tieude_cangiua .taikhoan span a #slgh {
+    position: absolute;
+    top: 8px;
+    right: 60px;
+    font-size: 10px;
+    content: "";
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+}
+
+#tieude #tieude_cangiua .taikhoan span a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+#avata {
+    width: 20px;
+    height: 20px;
+}
+
+
+/*Bắt đầu menu*/
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 255, 0);
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul a {
+    color: #000;
+    text-decoration: none;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    padding: 0 10px;
+    transition: all 0.5s;
+}
+
+#menu ul a:hover {
+    background-color: rgb(228, 228, 228);
+    color: rgb(37, 37, 37);
+}
+
+#menu ul li a i {
+    padding-right: 10px;
+}
+
+
+/*Kết thúc menu*/

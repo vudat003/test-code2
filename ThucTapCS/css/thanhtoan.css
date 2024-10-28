@@ -1,0 +1,122 @@
+#noidungthanhtoan{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 19%;
+    margin-top: 55px;
+    display: table-row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+#from_thongtinkhachhang  h2,h4{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#from_thongtinkhachhang form{
+    margin-left: 10px;
+}
+#from_thongtinkhachhang label{
+    font-size: 14px;
+    font-weight: 600;
+}
+#from_thongtinkhachhang input[type="text"]{
+    padding-left: 10px;
+    margin-right: 30px;
+    margin-left: 5px;
+    height: 20px;
+}
+
+#thanhtoan{
+    width: 100%;
+    background-color: aliceblue;
+    height: 500px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thanhtoan #sanphamdachon{
+    width: 70%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid black;
+}
+
+#thanhtoan #sanphamdachon table{
+    margin: 0 auto ;
+    text-align: center;
+}
+#thanhtoan #sanphamdachon table tr td{
+    padding: 0 5px;
+}
+
+
+#thanhtoan #sanphamcanchon{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+#thanhtoan #sanphamcanchon input{
+    margin-left: 60px;
+    width: 200px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#thanhtoan #sanphamcanchon #showsanpham{
+    width: 100%;
+    margin-top: 20px;
+}
+#thanhtoan #sanphamcanchon #showsanpham .item_sp{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+#thanhtoan #sanphamcanchon #showsanpham .item_sp:hover{
+    background-color: rgb(207, 207, 207);
+}
+#thanhtoan #sanphamcanchon #showsanpham .item_sp img{
+    width: 15%;
+}
+
+#thanhtoan #sanphamcanchon #showsanpham .item_sp .thongso{
+    width: 70%;
+    margin-left: 10px;
+}
+
+#thanhtoan #sanphamcanchon #showsanpham .item_sp .btn_chon{
+    width: 15%;
+    margin-right: 5px;
+}
+#thanhtoan #sanphamcanchon #showsanpham .item_sp .btn_chon:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#thanhtoandonhang{
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+#thanhtoandonhang input[type="text"]{
+    padding-left: 10px;
+    margin-right: 30px;
+    margin-left: 5px;
+    height: 20px;
+}
+
+#thanhtoandonhang input[type = 'submit']{
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    background: yellow;
+    font-weight: 600;
+}

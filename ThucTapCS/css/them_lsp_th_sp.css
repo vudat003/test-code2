@@ -1,0 +1,85 @@
+#content #noidungchinh h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#content #noidungchinh form {
+    width: 500px;
+    border: 2px solid black;
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+#content #noidungchinh form table tr td a {
+    color: #000;
+    font-size: 14px;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+#content #noidungchinh form table select {
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+#content #noidungchinh form table tr td:first-child {
+    font-weight: bold;
+    float: right;
+    padding-top: 10px;
+}
+
+#content #noidungchinh form table tr td input[type=text], input[type=password] {
+    height: 25px;
+    padding-left: 5px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 1px 1px 1px black;
+    float: left;
+    margin-left: 10px;
+}
+
+#content #noidungchinh form table tr td input[type=file] {
+    margin-left: 50px;
+    outline: none;
+    float: left;
+}
+
+#content #noidungchinh input[type="submit"] {
+    width: 65px;
+    height: 25px;
+    background-color: rgb(100, 100, 100);
+    color: rgb(207, 207, 207);
+    font-weight: bold;
+}
+
+#content #noidungchinh input[type="reset"] {
+    width: 65px;
+    height: 25px;
+    font-weight: bold;
+}
+
+#gia, #gia_ban {
+    margin: 5px 0px;
+    float: left;
+    margin-left: 20px;
+}
+
+#dienthoai{
+    display: none;
+}
+
+#maytinhbang{
+    display: none;
+}
+
+#donghothongminh{
+    display: none;
+}
+
+#laptop{
+    display: contents;
+}

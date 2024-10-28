@@ -1,0 +1,15 @@
+#thuonghieu {
+    width: 1200px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+#thuonghieu a img {
+    width: 125px;
+    height: 40px;
+    border: 2px solid rgb(116, 116, 116);
+}
+
+#thuonghieu a img:hover {
+    border: 2px solid rgb(0, 140, 255);
+}

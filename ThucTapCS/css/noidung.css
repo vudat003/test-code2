@@ -1,0 +1,215 @@
+/*Bắt đầu nội dung*/
+
+#noidung h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding-top: 60px;
+}
+
+#noidung #dienthoai {
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-bottom: 2px solid rgb(51, 51, 51);
+}
+
+#noidung #dienthoai .tieude {
+    background-color: yellow;
+    width: 1160px;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#noidung #dienthoai .tieude h2 {
+    float: left;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#noidung #dienthoai .tieude h2 i {
+    padding-right: 10px;
+    line-height: 40px;
+}
+
+#noidung #dienthoai .tieude a {
+    float: right;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#noidung #dienthoai .gg {
+    background-color: rgb(0, 119, 36);
+    color: rgb(255, 255, 255);
+}
+
+#noidung #dienthoai .tragop {
+    background-color: rgb(255, 115, 1);
+    color: rgb(255, 255, 255);
+}
+
+#noidung #dienthoai .moiramat {
+    background-color: rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+}
+
+.danhsachsanpham {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.danhsachsanpham .sanpham {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 220px;
+    height: 350px;
+}
+
+.danhsachsanpham .sanpham a {
+    box-shadow: 0px 3px 5px 1px black;
+    transition: 0.3s;
+    width: 210px;
+    height: 345px;
+}
+
+.danhsachsanpham .sanpham a .tragop {
+    background-color: rgb(255, 115, 1);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.danhsachsanpham .sanpham a .gg {
+    background-color: rgb(0, 119, 36);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.danhsachsanpham .sanpham a .moi {
+    background-color: rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.danhsachsanpham .sanpham a .khong {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.danhsachsanpham .sanpham a img {
+    width: 160px;
+    height: 160px;
+    margin: 10px 30px;
+    transition: 0.3s;
+}
+
+.danhsachsanpham .sanpham .ttsp {
+    font-weight: 500;
+    font-size: 15px;
+    width: 200px;
+    height: 95px;
+    margin-left: 10px;
+    line-height: 20px
+}
+
+.danhsachsanpham .sanpham .ttsp .giamgia_phantram {
+    margin-top: 5px;
+    display: flex;
+}
+
+.danhsachsanpham .sanpham .ttsp .giamgia_phantram .phantramgiam {
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.danhsachsanpham .sanpham .ttsp p.tensp {
+    display: inline-block;
+    color: rgb(37, 37, 37);
+    font: bold;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.danhsachsanpham .sanpham .ttsp p.giagoc {
+    color: rgb(158, 158, 158);
+    text-decoration-line: line-through;
+}
+
+.danhsachsanpham .sanpham .ttsp p.giamgia {
+    color: red;
+    font-size: 18px;
+    padding: 1px;
+}
+
+.danhsachsanpham .sanpham .ttsp .start {
+    display: flex;
+    padding: 2px;
+}
+
+.danhsachsanpham .sanpham .ttsp .fa-star {
+    color: rgb(255, 218, 7);
+}
+
+.danhsachsanpham .sanpham a:hover img {
+    padding-top: 10px;
+}
+
+.danhsachsanpham .sanpham a:hover .ttsp .tensp {
+    color: blue;
+}
+
+.danhsachsanpham .sanpham .ttsp .start .danhgia {
+    margin-left: 25px;
+    float: right;
+}
+
+#phantrang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#phantrang .phantrang_item{
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin-left: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+#phantrang .phantrang_item:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#phantrang .tranghientai{
+    background: black;
+    color: white;
+}
+/*Kết thúc nội dung*/

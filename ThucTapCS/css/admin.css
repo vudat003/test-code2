@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(145, 145, 145);
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#tieude {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: yellow;
+}
+
+#tieude .trai {
+    width: 90%;
+    float: right;
+    display: flex;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#tieude .trai h2 {
+    padding-top: 7px;
+}
+
+#tieude .trai .fas {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#tieude .phai {
+    width: 20%;
+    float: left;
+}
+
+#tieude .phai .fas {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+}
+
+#content #menu_left {
+    width: 18%;
+    height: 95vh;
+    background-color: black;
+    position: fixed;
+    top: 55px;
+    left: 0px;
+}
+
+#content #menu_left ul {
+    padding: 10px;
+}
+
+#content #menu_left ul li {
+    height: 30px;
+    background-color: yellow;
+    transition: 0.4s;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#content #menu_left ul li:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+#content #menu_left ul li:hover .sub li {
+    display: block;
+}
+
+#content #menu_left ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+#content #menu_left ul li i {
+    color: rgb(0, 0, 255);
+    float: right;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+
+#content #menu_left ul li ul.sub li {
+    display: none;
+    position: relative;
+    top: -43px;
+    left: 205px;
+    height: 30px;
+    width: 210px;
+    border: none;
+}
+
+#content #noidungchinh {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(209, 209, 209);
+    margin-left: 19%;
+    margin-top: 55px;
+    display: table-row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#content #noidungchinh {
+    text-align: center;
+}
+
+#content #noidungchinh #noidung {
+    width: 1000px;
+    margin: 80px auto;
+}
+
+#content #noidungchinh .fa {
+    width: 300px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+#content #noidungchinh .fa .tren {
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+#content #noidungchinh .fa .tren h2 {
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#content #noidungchinh .fa .tren p {
+    color: white;
+}
+
+#content #noidungchinh .fa .tren a i {
+    font-size: 50px;
+    color: white;
+    margin-left: -50px;
+}
+
+#content #noidungchinh .fa .duoi a,
+i {
+    color: white;
+    padding: 5px;
+}
+
+#content #noidungchinh .tongsp {
+    background-color: #cc0000;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .tongsp:hover {
+    background-color: #ff0000;
+}
+
+#content #noidungchinh .hethangsp {
+    background-color: #0041cc;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .hethangsp:hover {
+    background-color: #0655ff;
+}
+
+#content #noidungchinh .giohang {
+    background-color: #00b327;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .giohang:hover {
+    background-color: #00ff37;
+}
+
+#content #noidungchinh .tongdonhang {
+    background-color: #006c80;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .tongdonhang:hover {
+    background-color: #009bb6;
+}
+
+#content #noidungchinh .tongdt {
+    background-color: #6b008b;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .tongdt:hover {
+    background-color: #8902b3;
+}
+
+#content #noidungchinh .dt_homnay {
+    background-color: #ff0077;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .dt_homnay:hover {
+    background-color: #ff288c;
+}
+
+#content #noidungchinh .dt_thang {
+    background-color: #4e4e4e;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .dt_thang:hover {
+    background-color: #646464;
+}
+
+#content #noidungchinh .dt_nam {
+    background-color: #23ad96;
+    box-shadow: 5px 5px 5px black;
+}
+
+#content #noidungchinh .dt_nam:hover {
+    background-color: #2bdbbe;
+}

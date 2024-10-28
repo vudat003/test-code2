@@ -1,0 +1,133 @@
+/*----- Phần menu -----*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.menu li {
+    background-color: rgb(49, 49, 49);
+    margin: 0px;
+    list-style: none;
+}
+
+.menu a {
+    transition: all linear 0.15s;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu li:hover>a,
+.menu .current-item>a {
+    text-decoration: none;
+    color: #ffffff;
+    color: yellow;
+}
+
+.menu li i {
+    transition: 0.6s;
+    margin-left: 5px;
+}
+
+.menu li:hover i {
+    transform: rotate(90deg);
+    color: yellow;
+}
+
+.menu .arrow {
+    font-size: 11px;
+    line-height: 0%;
+}
+
+
+/*----- css cho phần menu cha -----*/
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+}
+
+.menu>ul>li>a {
+    padding: 10px 40px;
+    display: inline-block;
+    color: white;
+}
+
+.menu>ul>li:hover>a,
+.menu>ul>.current-item>a {
+    background: #2e2728;
+}
+
+
+/*----css cho menu con----*/
+
+.menu li:hover .sub-menu {
+    z-index: 1;
+    opacity: 1;
+}
+
+.sub-menu {
+    width: 120%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    background: #2e2728;
+}
+
+.sub-menu li {
+    display: none;
+    font-size: 16px;
+}
+
+.sub-menu li a {
+    padding: 10px 30px;
+    display: block;
+}
+
+.menu li:hover .sub-menu li {
+    display: block;
+}
+
+
+/*Bo loc san pham */
+
+.boloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boloc .boloc_block {
+    background-color: rgb(0, 108, 180);
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.boloc .boloc_block a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.boloc .boloc_block:hover {
+    background-color: rgb(0, 153, 255);
+}
+
+.boloc .boloc_block:hover i {
+    color: rgb(255, 0, 0);
+    background-color: wheat;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.boloc .boloc_main {
+    background-color: rgb(0, 66, 110);
+}

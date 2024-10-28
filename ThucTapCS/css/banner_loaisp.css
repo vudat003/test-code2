@@ -1,0 +1,41 @@
+.slider {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.slider .slider_left {
+    width: 70%;
+}
+
+.slider .slider_left .img_slider {
+    animation: fading 3s infinite;
+    height: 184px;
+}
+
+.slider .slider_right {
+    width: 30%;
+}
+
+.slider .slider_right img {
+    height: 90px;
+}
+
+.backFD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0.5
+    }
+    100% {
+        opacity: 1
+    }
+}
