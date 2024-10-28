@@ -47,6 +47,9 @@
                 <p>Nhập số điện thoại:</p>
                 <input type="text" name="sdt" id="sdt" placeholder="Nhập số điện thoại ...">
                 <span id="error_sdt" class="error"></span>
+                <p>Ảnh đại diện:</p>
+                <input type="file" name="anhdaidien" id="anhdaidien">
+                <span id="error_fileanh" class="error"></span>
             </div>
         </div>
         <div id="dangkytk">
